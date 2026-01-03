@@ -506,6 +506,12 @@ body {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.4rem;
 }
+/* Center single-card sections like Certifications & Workshops */
+#certs .projects-grid,
+#workshops .projects-grid {
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: center;
+}
 
 .project-card {
   position: relative;
@@ -542,6 +548,11 @@ body {
 
 .project-card:hover::before {
   opacity: 1;
+}
+#certs .project-card,
+#workshops .project-card {
+  max-width: 520px;
+  width: 100%;
 }
 
 .project-badge {
@@ -775,4 +786,5 @@ body {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
 
