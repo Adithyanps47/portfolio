@@ -1,6 +1,6 @@
 # Personal Portfolio – Adithyan P S
 
-Welcome to the repository for my [personal portfolio]([https://adithyanps47.github.io/portfolio/](https://adithyanps47.github.io/)).
+Welcome to the repository for my portfolio: https://adithyanps47.github.io/.
 
 This project showcases my skills, projects, and experience as a web developer. The site is built using **HTML**, **CSS**, and **JavaScript**.
 
